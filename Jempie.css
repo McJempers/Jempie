@@ -48,3 +48,29 @@ footer a img{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/*Responsive*/
+@media only screen and (max-width: 800px) {
+	span.dagen{
+		display: block;
+		/*background-color: red;*/
+	}
+	span.uren{
+		display: block;
+		/*background-color: red;*/
+	}
+	span.minuten{
+		display: block;
+		/*background-color: red;*/
+	}
+	span.seconden{
+		display: block;
+		/*background-color: red;*/
+	}
+}
+@media only screen and (max-width: 800px) {
+	span{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}
