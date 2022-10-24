@@ -12,10 +12,10 @@ header h1{
 /*content*/
 body{
 	background-image: url("eagle.jpg");
-	height: 1080px;
 	background-repeat: no-repeat;
   	background-position: center; 
 	background-color: black;
+	height: 1080px;
 }
 body div{
 	text-align: center;
