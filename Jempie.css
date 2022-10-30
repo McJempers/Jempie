@@ -48,6 +48,9 @@ footer a img{
 	margin-left: auto;
 	margin-right: auto;
 }
+footer img#Hond{
+	float:left;	
+}
 
 /*Responsive*/
 @media only screen and (max-width: 800px) {
