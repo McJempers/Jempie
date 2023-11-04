@@ -4,7 +4,7 @@
  */
 window.onload = function() {
   // Month Day, Year Hour:Minute:Second, id-of-element-container
-  countUpFromTime("Sep 18, 2023 01:00:00", 'countup1'); // ****** Change this line!
+  countUpFromTime("Nov 4, 2023 23:00:00", 'countup1'); // ****** Change this line!
 };
 function countUpFromTime(countFrom, id) {
   countFrom = new Date(countFrom).getTime();
