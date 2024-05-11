@@ -130,6 +130,15 @@ footer a img{
 footer img#Hond{
 	float:left;	
 }
+	footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    max-width: 100%;
+}
+
 
 /*Responsive*/
 @media only screen and (max-width: 800px) {
