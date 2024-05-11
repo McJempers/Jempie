@@ -136,33 +136,6 @@ body p{
 	height: 550px;
 }
 
-/*Footer*/
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px; /* Add padding to provide some space */
-}
-
-footer img {
-    max-width: 100%; /* Ensure images don't exceed their container */
-}
-
-footer .left {
-    order: 1; /* Place Hond on the left */
-}
-
-footer .middle {
-    order: 2; /* Place Twitch in the middle */
-    text-align: center; /* Center contents horizontally */
-}
-
-footer .right {
-    order: 3; /* Place Falko on the right */
-    margin-left: auto; /* Push Falko to the right */
-}
-
-
 /*Responsive*/
 @media only screen and (max-width: 800px) {
 	span.dagen{
