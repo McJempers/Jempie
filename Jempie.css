@@ -42,6 +42,84 @@ body p{
 	height: 550px;
 }
 
+/*Footer*/
+footer a img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 250px;
+}
+footer img#Hond{
+	float:left;	
+}
+
+/*Responsive*/
+@media only screen and (max-width: 800px) {
+	span.dagen{
+		display: block;
+		/*background-color: red;*/
+	}
+	span.uren{
+		display: block;
+		/*background-color: red;*/
+	}
+	span.minuten{
+		display: block;
+		/*background-color: red;*/
+	}
+	span.seconden{
+		display: block;
+		/*background-color: red;*/
+	}
+}
+@media only screen and (max-width: 800px) {
+	span{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}/*header*/
+header{
+	background-color: black;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+header h1{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+/*content*/
+body{
+	background-image: url("eagle.jpg");
+	background-repeat: no-repeat;
+  	background-position: center; 
+	background-color: black;
+	height: 1080px;
+}
+body div{
+	text-align: center;
+	font-size: 30px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: #151515;
+  margin: 0;
+  color: white;
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  background: #e8c152;
+  color: black;
+}
+
+body p{
+	height: 550px;
+}
+
 /* Footer */
 footer a img {
     display: block;
@@ -52,14 +130,12 @@ footer a img {
 
 footer img#Hond {
     float: left;
-    padding-right: 250px;
 }
 
 footer img#Falko {
     float: right;
-    padding-left: 250px;
+    margin-top: -20px; /* Adjust the value as needed */
 }
-
 
 
 /*Responsive*/
