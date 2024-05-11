@@ -52,6 +52,9 @@ footer a img{
 footer img#Hond{
 	float:left;	
 }
+footer img#Falko{
+	float:right;	
+}
 
 /*Responsive*/
 @media only screen and (max-width: 800px) {
