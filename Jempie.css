@@ -42,16 +42,30 @@ body p{
 	height: 550px;
 }
 
-/*Footer*/
-footer a img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-right: 250px;
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Add padding to provide some space */
 }
-footer img#Hond{
-	float:left;	
+
+footer img {
+    max-width: 300%; /* Ensure images don't exceed their container */
 }
+
+footer .left {
+    order: 1; /* Place Hond on the left */
+}
+
+footer .middle {
+    order: 2; /* Place Twitch in the middle */
+}
+
+footer .right {
+    order: 3; /* Place Falko on the right */
+}
+
 
 /*Responsive*/
 @media only screen and (max-width: 800px) {
