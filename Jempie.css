@@ -60,6 +60,7 @@ footer .left {
 
 footer .middle {
     order: 2; /* Place Twitch in the middle */
+    margin: 0 auto; /* Center Twitch horizontally */
 }
 
 footer .right {
@@ -154,6 +155,7 @@ footer .left {
 
 footer .middle {
     order: 2; /* Place Twitch in the middle */
+    margin: 0 auto; /* Center Twitch horizontally */
 }
 
 footer .right {
