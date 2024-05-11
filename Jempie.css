@@ -128,18 +128,10 @@ footer {
 }
 
 .left,
-.right,
-.middle {
+.middle,
+.right {
     flex: 1;
     text-align: center;
-}
-
-.left {
-    margin-right: auto;
-}
-
-.right {
-    margin-left: 100px;
 }
 
 /*Responsive*/
