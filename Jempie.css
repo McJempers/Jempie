@@ -42,18 +42,22 @@ body p{
 	height: 550px;
 }
 
-/*Footer*/
-footer a img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-right: 250px;
+/* Footer */
+footer a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 250px;
 }
-footer img#Hond{
-	float:left;
-footer img#Falko{
-	float:right;	
+
+footer img#Hond {
+    float: left;
 }
+
+footer img#Falko {
+    float: right;
+}
+
 
 /*Responsive*/
 @media only screen and (max-width: 800px) {
