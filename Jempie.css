@@ -42,30 +42,16 @@ body p{
 	height: 550px;
 }
 
-/*footer*/
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px; /* Add padding to provide some space */
+/*Footer*/
+footer a img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 250px;
 }
-
-footer img {
-    max-width: 300%; /* Ensure images don't exceed their container */
+footer img#Hond{
+	float:left;	
 }
-
-footer .left {
-    order: 1; /* Place Hond on the left */
-}
-
-footer .middle {
-    order: 2; /* Place Twitch in the middle */
-}
-
-footer .right {
-    order: 3; /* Place Falko on the right */
-}
-
 
 /*Responsive*/
 @media only screen and (max-width: 800px) {
@@ -134,7 +120,7 @@ body p{
 	height: 550px;
 }
 
-/*footer*/
+/* Footer */
 footer {
     display: flex;
     justify-content: space-between;
@@ -146,18 +132,19 @@ footer img {
     max-width: 100%; /* Ensure images don't exceed their container */
 }
 
-footer .left {
+footer #Hond {
     order: 1; /* Place Hond on the left */
 }
 
-footer .middle {
+footer #twitch-link {
     order: 2; /* Place Twitch in the middle */
 }
 
-footer .right {
+footer #Falko {
     order: 3; /* Place Falko on the right */
     margin-left: auto; /* Push Falko to the right */
 }
+
 
 /*Responsive*/
 @media only screen and (max-width: 800px) {
