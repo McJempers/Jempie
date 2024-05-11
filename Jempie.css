@@ -47,7 +47,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px; /* Add padding to provide some space */
+    padding: 10px;
 }
 
 footer img {
@@ -55,16 +55,17 @@ footer img {
 }
 
 footer .left {
-    order: 1; /* Place Hond on the left */
+    /* No need to specify order for Hond */
 }
 
 footer .middle {
-    order: 2; /* Place Twitch in the middle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer .right {
-    order: 3; /* Place Falko on the right */
-    margin-left: auto; /* Push Falko to the right */
+    /* No need to specify margin-left for Falko */
 }
 
 
