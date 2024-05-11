@@ -120,24 +120,24 @@ body p{
 	height: 550px;
 }
 
-/*Footer*/
-footer a img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-right: 250px;
-}
-footer img#Hond{
-	float:left;	
-}
-	footer {
+/* Footer */
+footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
 footer img {
     max-width: 100%;
 }
+
+footer img#Hond {
+    float: left;
+}
+
+footer img#Falko {
+    float: right;
+}
+
 
 
 /*Responsive*/
