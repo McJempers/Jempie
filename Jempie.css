@@ -121,14 +121,20 @@ body p{
 }
 
 /* Footer */
+/* Footer */
+footer a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+}
+
 footer img#Hond {
     float: left;
-    padding-right: 250px;
 }
 
 footer img#Falko {
     float: right;
-    padding-left: 250px;
 }
 
 /*Responsive*/
