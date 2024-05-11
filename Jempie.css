@@ -52,18 +52,14 @@ footer a img {
 
 footer img#Hond {
     float: left;
-}
-
-footer a img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 250px;
+    padding-right: 250px;
 }
 
 footer img#Falko {
     float: right;
+    padding-left: 250px;
 }
+
 
 
 /*Responsive*/
