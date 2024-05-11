@@ -120,30 +120,22 @@ body p{
 	height: 550px;
 }
 
-/*Footer*/
-footer a img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-right: 250px;
-}
-footer img#Hond{
-	float:left;	
+/* Footer */
+footer a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 250px;
 }
 
-	footer {
-    text-align: center;
+footer img#Hond {
+    float: left;
 }
 
-#twitch-link {
-    display: inline-block;
+footer img#Falko {
+    float: right;
 }
 
-footer img#Falko{
-	float:Right;	
-}
-
-	
 /*Responsive*/
 @media only screen and (max-width: 800px) {
 	span.dagen{
