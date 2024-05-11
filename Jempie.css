@@ -59,8 +59,7 @@ footer .left {
 }
 
 footer .middle {
-    flex-grow: 1; /* Allow the middle section to grow and take up available space */
-    text-align: center; /* Center content horizontally */
+    order: 2; /* Place Twitch in the middle */
 }
 
 footer .right {
