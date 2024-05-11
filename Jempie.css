@@ -121,22 +121,14 @@ body p{
 }
 
 /* Footer */
-footer a img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 250px;
-}
-
-footer img#Hond {
-    float: left;
-}
-
-footer img#Falko {
-    float: right;
-    margin-right: -200px; /* Adjust the value as needed */
-}
-
+<div id="Footer" >
+        <div style="float:left" >
+            <img src="DerpiHondTransparant.png"/>
+        </div>
+        <div style="float:right" >
+            <img src="Falko.png"/>
+        </div>
+    </div>
 
 /*Responsive*/
 @media only screen and (max-width: 800px) {
