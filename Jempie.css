@@ -121,14 +121,15 @@ body p{
 }
 
 /* Footer */
-<div id="Footer" >
-        <div style="float:left" >
-            <img src="DerpiHondTransparant.png"/>
-        </div>
-        <div style="float:right" >
-            <img src="Falko.png"/>
-        </div>
-    </div>
+footer img#Hond {
+    float: left;
+    padding-right: 250px;
+}
+
+footer img#Falko {
+    float: right;
+    padding-left: 250px;
+}
 
 /*Responsive*/
 @media only screen and (max-width: 800px) {
