@@ -120,20 +120,21 @@ body p{
 	height: 550px;
 }
 
-/* Footer */
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/*Footer*/
+footer a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 250px;
 }
 
-.left,
-.middle,
-.right {
-    flex: 1;
-    text-align: center;
+footer img#Hond {
+    float: left;
 }
 
+footer img#Falko {
+    float: right;
+}
 /*Responsive*/
 @media only screen and (max-width: 800px) {
 	span.dagen{
